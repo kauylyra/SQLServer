@@ -8,3 +8,6 @@ WHERE ISBN LIKE '1%'
 
 SELECT Nome_Livro FROM livro
 WHERE Nome_Livro NOT LIKE 'SSH%' -- Consultando nome do livro onde o nomedo livro NÃO tem SSH no nome
+
+SELECT Nome_Livro FROM livro
+WHERE Nome_Livro LIKE '_i__o%' -- Consultando um livro que tenha a segunda letra 'i' e a quinta letra 'o' nõa importando o que venha depois disso.
